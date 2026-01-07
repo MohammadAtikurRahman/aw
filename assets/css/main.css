@@ -1,0 +1,30 @@
+body {
+
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: #f4f4f4;
+    }
+
+    .container {
+        max-width: 800px;
+    }
+}
+
+/* Desktop View (min-width: 1024px) */
+
+@media (min-width: 1024px) {
+    body {
+        background-color: #e0e0e0;
+
+    }
+
+    .container {
+        max-width: 1000px;
+    }
+
+}
