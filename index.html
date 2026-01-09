@@ -9,9 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 
-    
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
 </head>
@@ -19,17 +19,42 @@
 <body>
 
     <section>
-        <nav>
-            <ul class="nav-links">
+
+
+        <!-- NAV (desktop + mobile hamburger) -->
+        <nav class="site-nav">
+            <!-- Desktop menu (keeps your old links) -->
+            <ul class="nav-links nav-desktop">
                 <li><a href="#">TOP</a></li>
                 <li><a href="#">VISION</a></li>
                 <li><a href="#">MESSAGE</a></li>
-
                 <li><a href="#">SERVICE</a></li>
                 <li><a href="#">STORY</a></li>
                 <li><a href="#">PROFILE</a></li>
             </ul>
+
+            <!-- Mobile hamburger button -->
+            <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <!-- Mobile dropdown menu -->
+            <div class="nav-mobile-panel" aria-hidden="true">
+                <button class="nav-close" aria-label="Close menu">✕</button>
+
+                <ul class="nav-mobile-links">
+                    <li><a href="#">TOP</a></li>
+                    <li><a href="#">VISION</a></li>
+                    <li><a href="#">MESSAGE</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">STORY</a></li>
+                    <li><a href="#">PROFILE</a></li>
+                </ul>
+            </div>
         </nav>
+
+
+
     </section>
 
 
@@ -91,138 +116,154 @@
 
 
 
- <section class="services">
-    <div class="service-item">
-        <h3>SERVICE</h3>
-        <img src="assets/images/circleImg01.png" alt="">
-        <p>
-            科学的研究というのが近代史学の学問的方法による研究という意義であるならば、
-            これは史学の学徒の間においては一般に行われていることであるから、
-            今さらこと新しくいうには及ばない。
-        </p>
-    </div>
+    <section class="services">
+        <div class="service-item">
+            <h3>SERVICE</h3>
+            <img src="assets/images/circleImg01.png" alt="">
+            <p>
+                科学的研究というのが近代史学の学問的方法による研究という意義であるならば、
+                これは史学の学徒の間においては一般に行われていることであるから、
+                今さらこと新しくいうには及ばない。
+            </p>
+        </div>
 
-    <div class="service-item">
-        <h3>MESSAGE</h3>
-        <img src="assets/images/circleImg02.png" alt="">
-        <p>
-            科学的研究というのが近代史学の学問的方法による研究という意義であるならば、
-            これは史学の学徒の間においては一般に行われていることであるから、
-            今さらこと新しくいうには及ばない。
-        </p>
-    </div>
+        <div class="service-item">
+            <h3>MESSAGE</h3>
+            <img src="assets/images/circleImg02.png" alt="">
+            <p>
+                科学的研究というのが近代史学の学問的方法による研究という意義であるならば、
+                これは史学の学徒の間においては一般に行われていることであるから、
+                今さらこと新しくいうには及ばない。
+            </p>
+        </div>
 
-    <div class="service-item">
-        <h3>STORY</h3>
-        <img src="assets/images/circleImg03.png" alt="">
-        <p>
-            科学的研究というのが近代史学の学問的方法による研究という意義であるならば、
-            これは史学の学徒の間においては一般に行われていることであるから、
-            今さらこと新しくいうには及ばない。
-        </p>
-    </div>
-</section>
+        <div class="service-item">
+            <h3>STORY</h3>
+            <img src="assets/images/circleImg03.png" alt="">
+            <p>
+                科学的研究というのが近代史学の学問的方法による研究という意義であるならば、
+                これは史学の学徒の間においては一般に行われていることであるから、
+                今さらこと新しくいうには及ばない。
+            </p>
+        </div>
+    </section>
 
-<section class="reason-section">
+    <section class="reason-section">
 
-  <!-- TOP BAR -->
-  <div class="reason-bar">
-    <div class="badge">01</div>
-    <span class="bar-title">REASON</span>
-  </div>
+        <!-- TOP BAR -->
+        <div class="reason-bar">
+            <div class="badge">01</div>
+            <span class="bar-title">REASON</span>
+        </div>
 
-  <!-- CONTENT -->
-  <div class="reason-content">
+        <!-- CONTENT -->
+        <div class="reason-content">
 
-    <!-- SINGLE IMAGE -->
-    <div class="reason-image">
-      <img src="assets/images/reason.jpg" alt="">
-    </div>
-
-    <!-- TEXT -->
-    <div class="reason-text">
-      <h2>歴史と実績</h2>
-      <p>
-        昭和10年に長浜市で創業して以来、水まわりなどの小さいリフォームから
-        住宅・店舗の設計施工、公共建築物等の大規模な建築まで、滋賀県に住む
-        皆様のために多くのサポートをして参りました。
-      </p>
-      <p>
-        長年地元のお客様と共に歩んできた歴史と実績は、何物にも代えがたい
-        ノブワークスの財産です。
-      </p>
-    </div>
-
-  </div>
-</section>
-
-
-<section class="bg-section">
-    <div class="bg-overlay">
-        <div class="bg-content">
-
-            <div class="bg-box">
-                <h3>STORY</h3>
-                <p>
-                    科学的研究というのが近代史学の学問的方法によるかぎり世間で
-                    日本歴史の科学的研究ということがしきりに叫ばれている。
-                    研究という言葉であるならば、これは史学の学徒の間においては
-                    一般に行われていることであるから、今さらこと新しくいうには
-                    及ばないはずである。
-                </p>
+            <!-- SINGLE IMAGE -->
+            <div class="reason-image">
+                <img src="assets/images/reason.jpg" alt="">
             </div>
 
-            <div class="bg-box">
-                <h3>SUCCESS</h3>
+            <!-- TEXT -->
+            <div class="reason-text">
+                <h2>歴史と実績</h2>
                 <p>
-                    ちかごろ世間で日本歴史の科学的研究ということがしきりに叫ばれている。
-                    科学的研究というのが近代史学の学問的方法による研究という言葉で
-                    あるならば、これは史学の学徒の間においては一般に行われている
-                    ことであるから、今さらこと新しくいうには及ばないはずである。
+                    昭和10年に長浜市で創業して以来、水まわりなどの小さいリフォームから
+                    住宅・店舗の設計施工、公共建築物等の大規模な建築まで、滋賀県に住む
+                    皆様のために多くのサポートをして参りました。
+                </p>
+                <p>
+                    長年地元のお客様と共に歩んできた歴史と実績は、何物にも代えがたい
+                    ノブワークスの財産です。
                 </p>
             </div>
 
         </div>
-    </div>
-</section>
+    </section>
 
 
-<footer class="footer">
-    <div class="footer-wrap">
+    <section class="bg-section">
+        <div class="bg-overlay">
+            <div class="bg-content">
 
-        <div class="footer-info">
-            <table>
-                <tr><th>社名</th><td>Sample Company</td></tr>
-                <tr><th>代表取締役</th><td>見本 太郎</td></tr>
-                <tr><th>住所</th><td>見本県見本市仮区見本町1-3-5</td></tr>
-                <tr><th>電話番号</th><td>01234-567-8901</td></tr>
-                <tr><th>設立</th><td>20XX年5月5日</td></tr>
-                <tr><th>資本金</th><td>1,000,000円</td></tr>
-                <tr>
-                    <th>主な取引先</th>
-                    <td class="links">
-                        見本商事株式会社<br>
-                        株式会社中無休商事<br>
-                        株式会社仮所
-                    </td>
-                </tr>
-            </table>
+                <div class="bg-box">
+                    <h3>STORY</h3>
+                    <p>
+                        科学的研究というのが近代史学の学問的方法によるかぎり世間で
+                        日本歴史の科学的研究ということがしきりに叫ばれている。
+                        研究という言葉であるならば、これは史学の学徒の間においては
+                        一般に行われていることであるから、今さらこと新しくいうには
+                        及ばないはずである。
+                    </p>
+                </div>
+
+                <div class="bg-box">
+                    <h3>SUCCESS</h3>
+                    <p>
+                        ちかごろ世間で日本歴史の科学的研究ということがしきりに叫ばれている。
+                        科学的研究というのが近代史学の学問的方法による研究という言葉で
+                        あるならば、これは史学の学徒の間においては一般に行われている
+                        ことであるから、今さらこと新しくいうには及ばないはずである。
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-wrap">
+
+            <div class="footer-info">
+                <table>
+                    <tr>
+                        <th>社名</th>
+                        <td>Sample Company</td>
+                    </tr>
+                    <tr>
+                        <th>代表取締役</th>
+                        <td>見本 太郎</td>
+                    </tr>
+                    <tr>
+                        <th>住所</th>
+                        <td>見本県見本市仮区見本町1-3-5</td>
+                    </tr>
+                    <tr>
+                        <th>電話番号</th>
+                        <td>01234-567-8901</td>
+                    </tr>
+                    <tr>
+                        <th>設立</th>
+                        <td>20XX年5月5日</td>
+                    </tr>
+                    <tr>
+                        <th>資本金</th>
+                        <td>1,000,000円</td>
+                    </tr>
+                    <tr>
+                        <th>主な取引先</th>
+                        <td class="links">
+                            見本商事株式会社<br>
+                            株式会社中無休商事<br>
+                            株式会社仮所
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="footer-map">
+                <iframe src="https://www.google.com/maps?q=Japan&output=embed" loading="lazy">
+                </iframe>
+            </div>
+
         </div>
 
-        <div class="footer-map">
-            <iframe
-                src="https://www.google.com/maps?q=Japan&output=embed"
-                loading="lazy">
-            </iframe>
-        </div>
-
-    </div>
-
-    <p class="footer-copy">
-        Copyright(c) 20XX Sample Inc. All Rights Reserved.
-        Design by <a href="#">http://f-tpl.com</a>
-    </p>
-</footer>
+        <p class="footer-copy">
+            Copyright(c) 20XX Sample Inc. All Rights Reserved.
+            Design by <a href="#">http://f-tpl.com</a>
+        </p>
+    </footer>
 
 
 
@@ -230,7 +271,34 @@
 
 
 
-    <script src=""></script>
-</body>
+<script>
+  const nav = document.querySelector(".site-nav");
+  const toggle = document.querySelector(".nav-toggle");
+  const closeBtn = document.querySelector(".nav-close");
+
+  function openMenu(){
+    nav.classList.add("is-open");
+    toggle.setAttribute("aria-expanded", "true");
+  }
+  function closeMenu(){
+    nav.classList.remove("is-open");
+    toggle.setAttribute("aria-expanded", "false");
+  }
+
+  toggle.addEventListener("click", openMenu);
+  closeBtn.addEventListener("click", closeMenu);
+
+  // close on link click
+  document.querySelectorAll(".nav-mobile-links a").forEach(a=>{
+    a.addEventListener("click", closeMenu);
+  });
+
+  // close when clicking outside
+  document.addEventListener("click", (e)=>{
+    if(!nav.contains(e.target) && nav.classList.contains("is-open")){
+      closeMenu();
+    }
+  });
+</script></body>
 
 </html>
