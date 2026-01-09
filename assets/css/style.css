@@ -5,7 +5,6 @@ nav {
     width: 100%;
     z-index: 10;          
 }
-
 .nav-links {
     list-style: none;
     text-align: right;
@@ -22,24 +21,16 @@ nav {
     font-size: 1.03rem;
     margin-left: 15px;
 }
-
-
-/* HERO SECTION */
 .hero {
     position: relative;
     max-width: 70%;
     margin: 0 auto;
 }
-
-/* HERO IMAGE */
 .hero img {
     width: 100%;
     height: auto;
     display: block;
 }
-
-
-/* HERO TEXT */
 .hero h1 {
     position: absolute;
     top: 45%;
@@ -73,13 +64,16 @@ nav {
 }
 
 .vision h4 {
-    max-width: 900px;        /* text column width */
-    margin: 0 auto;          /* center the block */
-    text-align: left;        /* text starts from left */
+    max-width: 900px;       
+    margin: 0 auto;         
+    text-align: left;        
     font-weight: normal;
     line-height: 1.9;
     color: #333;
 }
+
+
+
 
 @media (max-width: 768px) {
 
