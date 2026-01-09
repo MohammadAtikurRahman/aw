@@ -83,11 +83,14 @@ nav {
     overflow: hidden;
     font-family: 'Roboto', sans-serif;
     background: rgb(247, 247, 247);
-    /* 🔥 wheat color full column */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
 }
 
-/* COMMON COLUMN */
 .msg-box {
     width: 50%;
     float: left;
@@ -95,12 +98,9 @@ nav {
 
 }
 
-/* LEFT COLUMN – IMAGE SIDE */
 .msg-box.image {
     background: #ffffff;
-    /* white background */
     padding-bottom: 100px;
-    /* white space under image */
 }
 
 .msg-box.image img {
@@ -109,14 +109,22 @@ nav {
     display: block;
 }
 
-/* RIGHT COLUMN – TEXT SIDE */
 .msg-box.text {
     text-align: center;
     padding: 80px;
     min-height: 100%;
+
+    margin: 0 auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.9;
+    color: #333;
+
+
 }
 
 .msg-box.text h3 {
+    text-align: center;
     margin-bottom: 20px;
     letter-spacing: 2px;
 }
@@ -127,7 +135,6 @@ nav {
     color: #333;
 }
 
-/* RESPONSIVE (STACK LIKE BOOTSTRAP) */
 @media (max-width: 768px) {
     .msg-box {
         width: 100%;
