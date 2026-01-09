@@ -420,14 +420,21 @@
         width: 100%;
     }
 
-    .reason-text h2 {
-        font-size: 1.2rem;
-        text-align: center;
-    }
+ 
 
     .reason-text p {
         font-size: 0.3rem;
+     margin-bottom: 1px;
+
     }
+
+
+    .reason-section h2{
+        font-size: 0.5rem;
+
+    text-align: center; 
+    padding-top: 15px;
+}
 
     .badge {
         left: 10px;

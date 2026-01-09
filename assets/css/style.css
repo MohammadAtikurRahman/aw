@@ -273,6 +273,11 @@ nav {
     margin-bottom: 20px;
 }
 
+.reason-section h2{
+
+    text-align: center; 
+    padding-top: 15px;
+}
 .reason-text p {
     font-size: 1.08em;
     line-height: 1.9;
