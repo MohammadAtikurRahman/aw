@@ -48,7 +48,7 @@ nav {
 
 .hero h2 {
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 50%;
     transform: translateX(-50%);
     font-family: 'Roboto', sans-serif;
